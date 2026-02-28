@@ -33,7 +33,6 @@ Researcher in Deep Learning, Medical Image Analysis & Healthcare AI
 | [RailSathiBE-Docker](https://github.com/parasharcuraj/RailSathiBE-Docker) | Dockerized FastAPI railway complaint management system |
 | [kpa-api](https://github.com/parasharcuraj/kpa-api) | FastAPI REST API with JWT auth, PostgreSQL & SQLAlchemy |
 | [Govjob](https://github.com/parasharcuraj/Govjob) | Government job portal — TypeScript monorepo with Turbo |
-| [liver](https://github.com/parasharcuraj/liver) | Deep learning for liver disease classification from histopathology |
 
 ### GitHub Stats
 
