@@ -10,7 +10,7 @@ Integrated M.Sc. Computer Science · Central University of Rajasthan, Ajmer, Ind
 
 > I build deep learning systems that **detect cancer from tissue slides, segment organs from 3D MRI, and decode brain signals** — with results that beat published state-of-the-art benchmarks.
 
-📍 Ajmer, India &nbsp;|&nbsp; 📧 hkp2857@gmail.com &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/himanshu-parashar-a7217222a) &nbsp;|&nbsp; **🎓 Seeking PhD / Research positions abroad**
+📍 Ajmer, India &nbsp;|&nbsp; 📧 hkp2857@gmail.com &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/himanshu-parashar-a7217222a) &nbsp;|&nbsp; **🎓 Seeking PhD / Research positions**
 
 ---
 
@@ -48,15 +48,6 @@ Integrated M.Sc. Computer Science · Central University of Rajasthan, Ajmer, Ind
 - Extended **Coordinate Attention from 2D → 3D** for volumetric medical image analysis
 - Pipeline: PyTorch + MONAI · boundary-aware loss · deep supervision · mixed-precision · single NVIDIA T4 GPU
 - Evaluated on **318 3D MRI volumes** (CirrMRI600+) · 4 baselines · 6-variant ablation study · statistical significance testing
-
----
-
-## 📝 Publication
-
-> **Continuous Fundus Image Quality Assessment for Retinal Screening**  
-> *Under review — Springer Nature*  
-> Inception-V3 backbone · Smooth L1 (Huber) loss · **SRCC = 0.9459 · PLCC = 0.9575** on FIQS dataset  
-> Designed for automated quality control in large-scale diabetic retinopathy & teleophthalmology screening
 
 ---
 
