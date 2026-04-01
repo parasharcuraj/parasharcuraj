@@ -1,6 +1,6 @@
 # Himanshu Kumar Parashar
 
-**Deep Learning Researcher · Medical Image Analysis · Healthcare AI**
+**Deep Learning Researcher · Medical Image Analysis · Healthcare AI · LLM Evaluator**
 
 Integrated M.Sc. Computer Science · Central University of Rajasthan, Ajmer, India *(2021–2026)*
 
@@ -77,6 +77,23 @@ Integrated M.Sc. Computer Science · Central University of Rajasthan, Ajmer, Ind
 | [🤖 **AI-Interview-Assistant**](https://github.com/parasharcuraj/AI-Interview-Assistant) | LLM-powered technical recruiter · scoring dashboard | End-to-end AI pipeline |
 | [🚂 **RailSathiBE-Docker**](https://github.com/parasharcuraj/RailSathiBE-Docker) | Dockerized complaint system · Redis · JWT | Production-grade backend |
 | [🔑 **kpa-api**](https://github.com/parasharcuraj/kpa-api) | FastAPI · JWT auth · PostgreSQL REST API | Secure, scalable |
+
+---
+
+## 🧪 LLM Evaluation Portfolio
+
+**[→ llm-cs-eval-tasks](https://github.com/parasharcuraj/llm-cs-eval-tasks)** — 15 real systems engineering tasks that expose LLM reasoning failures
+
+I design and evaluate complex CS debugging tasks as part of active work with [Snorkel AI / Terminal-Bench](https://snorkel.ai). These tasks cover:
+
+- Protocol bugs requiring RFC-level spec knowledge (DNSSEC, HTTP/2, UART)
+- Systems debugging with no documentation — format must be reverse-engineered from binaries (WAL, eBPF, custom ISA)
+- Multi-layer cascade failures where fixing layer A reveals bugs in B, C, D
+- Custom codecs, embedded linker scripts, distributed tracing pipelines
+
+**Failure patterns I document:** cascade reasoning, spec inference, simultaneous multi-layer repair, byte-identical precision, edge-case semantics
+
+> This work maps directly to: **AI Evaluator · LLM Red Teamer · Benchmark Dataset Creator**
 
 ---
 
