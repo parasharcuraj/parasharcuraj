@@ -6,7 +6,7 @@ Integrated M.Sc. Computer Science · Central University of Rajasthan, Ajmer, Ind
 
 ---
 
-## 🎯 In One Line
+## 🚀 What I Do 
 
 > I build deep learning systems that **detect cancer from tissue slides, segment organs from 3D MRI, and decode brain signals** — with results that beat published state-of-the-art benchmarks. I also design **adversarial CS tasks that expose where frontier LLMs fail**, bridging research and model evaluation.
 
