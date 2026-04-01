@@ -8,7 +8,7 @@ Integrated M.Sc. Computer Science · Central University of Rajasthan, Ajmer, Ind
 
 ## 🎯 In One Line
 
-> I build deep learning systems that **detect cancer from tissue slides, segment organs from 3D MRI, and decode brain signals** — with results that beat published state-of-the-art benchmarks.
+> I build deep learning systems that **detect cancer from tissue slides, segment organs from 3D MRI, and decode brain signals** — with results that beat published state-of-the-art benchmarks. I also design **adversarial CS tasks that expose where frontier LLMs fail**, bridging research and model evaluation.
 
 📍 Ajmer, India &nbsp;|&nbsp; 📧 hkp2857@gmail.com &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/himanshu-parashar-a7217222a) &nbsp;|&nbsp; **🎓 Seeking PhD / Research positions**
 
@@ -32,6 +32,23 @@ Integrated M.Sc. Computer Science · Central University of Rajasthan, Ajmer, Ind
 | **Inception-V3 + Huber** | Fundus Image Quality (FIQA) | **SRCC 0.9459** | TRIQ, HyperIQA | **Top result** |
 | **BiLSTM-Transformer** | Human Activity Recognition | **95.80% Acc** | BiLSTM baseline | **Best of 6** |
 | **CNN** | Lung Cancer · DICOM CT | **98.64% Acc** | ANN 85.69% | **+12.95 pp** |
+
+---
+
+## 🧪 LLM Evaluation Portfolio
+
+**[→ llm-cs-eval-tasks](https://github.com/parasharcuraj/llm-cs-eval-tasks)** — 15 real systems engineering tasks that expose LLM reasoning failures
+
+I design and evaluate complex CS debugging tasks as part of active LLM benchmarking work. These tasks cover:
+
+- Protocol bugs requiring RFC-level spec knowledge (DNSSEC, HTTP/2, UART)
+- Systems debugging with no documentation — format must be reverse-engineered from binaries (WAL, eBPF, custom ISA)
+- Multi-layer cascade failures where fixing layer A reveals bugs in B, C, D
+- Custom codecs, embedded linker scripts, distributed tracing pipelines
+
+**Failure patterns I document:** cascade reasoning, spec inference, simultaneous multi-layer repair, byte-identical precision, edge-case semantics
+
+> This work maps directly to: **AI Evaluator · LLM Red Teamer · Benchmark Dataset Creator**
 
 ---
 
@@ -77,23 +94,6 @@ Integrated M.Sc. Computer Science · Central University of Rajasthan, Ajmer, Ind
 | [🤖 **AI-Interview-Assistant**](https://github.com/parasharcuraj/AI-Interview-Assistant) | LLM-powered technical recruiter · scoring dashboard | End-to-end AI pipeline |
 | [🚂 **RailSathiBE-Docker**](https://github.com/parasharcuraj/RailSathiBE-Docker) | Dockerized complaint system · Redis · JWT | Production-grade backend |
 | [🔑 **kpa-api**](https://github.com/parasharcuraj/kpa-api) | FastAPI · JWT auth · PostgreSQL REST API | Secure, scalable |
-
----
-
-## 🧪 LLM Evaluation Portfolio
-
-**[→ llm-cs-eval-tasks](https://github.com/parasharcuraj/llm-cs-eval-tasks)** — 15 real systems engineering tasks that expose LLM reasoning failures
-
-I design and evaluate complex CS debugging tasks as part of active LLM benchmarking work. These tasks cover:
-
-- Protocol bugs requiring RFC-level spec knowledge (DNSSEC, HTTP/2, UART)
-- Systems debugging with no documentation — format must be reverse-engineered from binaries (WAL, eBPF, custom ISA)
-- Multi-layer cascade failures where fixing layer A reveals bugs in B, C, D
-- Custom codecs, embedded linker scripts, distributed tracing pipelines
-
-**Failure patterns I document:** cascade reasoning, spec inference, simultaneous multi-layer repair, byte-identical precision, edge-case semantics
-
-> This work maps directly to: **AI Evaluator · LLM Red Teamer · Benchmark Dataset Creator**
 
 ---
 
