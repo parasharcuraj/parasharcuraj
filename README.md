@@ -35,7 +35,7 @@ Integrated M.Sc. Computer Science · Central University of Rajasthan, Ajmer, Ind
 
 ---
 
-## 🧪 LLM Evaluation Portfolio
+## LLM Benchmarking Work
 
 **[→ llm-cs-eval-tasks](https://github.com/parasharcuraj/llm-cs-eval-tasks)** — 15 real systems engineering tasks that expose LLM reasoning failures
 
