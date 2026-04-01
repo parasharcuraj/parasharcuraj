@@ -14,7 +14,7 @@ Integrated M.Sc. Computer Science · Central University of Rajasthan, Ajmer, Ind
 
 ---
 
-## 🏛️ Research Affiliations
+## Research Experience
 
 | Period | Institute | Project |
 |---|---|---|
