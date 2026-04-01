@@ -4,7 +4,7 @@
 
 > *Aspiring researcher building AI systems that diagnose diseases, decode brain signals, and see through microscopes.*
 
-📍 Ajmer, India &nbsp;|&nbsp; 📧 hkp2857@gmail.com &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/himanshu-parashar-a7217222a) &nbsp;|&nbsp; 🚀 **Open to PhD / Research positions abroad**
+📍 Ajmer, India &nbsp;|&nbsp; 📧 hkp2857@gmail.com &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/himanshu-parashar-a7217222a) &nbsp;|&nbsp; 🚀 **Open to PhD / Research positions **
 
 ---
 
