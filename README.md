@@ -1,47 +1,62 @@
-# 👋 Hi, I'm Himanshu Kumar Parashar
+# Himanshu Kumar Parashar
 
-### 🎓 Integrated M.Sc. Computer Science · Central University of Rajasthan, Ajmer, India
+**Deep Learning Researcher · Medical Image Analysis · Healthcare AI**
 
-> *Aspiring researcher building AI systems that diagnose diseases, decode brain signals, and see through microscopes.*
-
-📍 Ajmer, India &nbsp;|&nbsp; 📧 hkp2857@gmail.com &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/himanshu-parashar-a7217222a) &nbsp;|&nbsp; 🚀 Open to PhD / Research positions 
+Integrated M.Sc. Computer Science · Central University of Rajasthan, Ajmer, India *(2021–2026)*
 
 ---
 
-## 🔬 What I Do
+## 🎯 In One Line
 
-I design **end-to-end deep learning pipelines** for medical image analysis and biomedical signal processing — from raw DICOM scans and H&E-stained slides to state-of-the-art classification and segmentation models.
+> I build deep learning systems that **detect cancer from tissue slides, segment organs from 3D MRI, and decode brain signals** — with results that beat published state-of-the-art benchmarks.
 
-```
-Research Intern  →  NIT Jamshedpur   (Oral Cancer · Histopathology · Swin Transformer)  Dec 2025 – Present
-Research Intern  →  IIT Kharagpur    (EEG · Autism Detection · BCI)                      Aug – Nov 2025
-Research Intern  →  IIITDM Kurnool   (Human Activity Recognition · BiLSTM-Transformer)   May – Jul 2025
-```
+📍 Ajmer, India &nbsp;|&nbsp; 📧 hkp2857@gmail.com &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/himanshu-parashar-a7217222a) &nbsp;|&nbsp; **🎓 Seeking PhD / Research positions abroad**
 
 ---
 
-## 🏆 Research Highlights
+## 🏛️ Research Affiliations
 
-| Project | Result |
-|---|---|
-| **DCFNet** — 3D Liver Segmentation (Master's Thesis) | **92.22% Dice** · surpassed prior SOTA (86.51%) by +5.7 pp |
-| **Fundus Image Quality Assessment** (FIQA) | **SRCC = 0.9459 · PLCC = 0.9575** · outperformed TRIQ, HyperIQA, GraphIQA |
-| **Lung Cancer Detection** — DICOM CT Scans | **CNN 98.64%** test accuracy on 40,000+ medical images |
-| **Human Activity Recognition** — BiLSTM-Transformer | **95.80%** on 6-class smartphone sensor data |
+| Period | Institute | Project |
+|---|---|---|
+| Dec 2025 – Present | **National Institute of Technology, Jamshedpur** | Oral Cancer Detection · DWT-Gabor Swin Transformer |
+| Aug – Nov 2025 | **Indian Institute of Technology, Kharagpur** | EEG · Autism Detection · P300 BCI |
+| May – Jul 2025 | **IIITDM Kurnool** | Human Activity Recognition · BiLSTM-Transformer |
+
+---
+
+## 🏆 Key Results
+
+| Model | Task | My Result | Previous SOTA | Improvement |
+|---|---|---|---|---|
+| **DCFNet** (Thesis) | 3D Liver Segmentation · T2-MRI | **92.22% Dice** | 86.51% | **+5.71 pp** |
+| **Inception-V3 + Huber** | Fundus Image Quality (FIQA) | **SRCC 0.9459** | TRIQ, HyperIQA | **Top result** |
+| **BiLSTM-Transformer** | Human Activity Recognition | **95.80% Acc** | BiLSTM baseline | **Best of 6** |
+| **CNN** | Lung Cancer · DICOM CT | **98.64% Acc** | ANN 85.69% | **+12.95 pp** |
 
 ---
 
 ## 🧠 Active Research
 
-**🦷 Oral Cancer Detection @ NIT Jamshedpur** *(Dec 2025 – Present)*
-- Novel **DWT-Gabor Fusion Swin Transformer** for early-stage OSCC classification from H&E histopathology
-- 4th-channel input: fused Haar DWT + Gabor filter maps → stain-invariant frequency-domain features
-- Benchmarking on NDB-UFES dataset · identifying data leakage in prior work · rigorous image-level 5-fold CV
+**🦷 Oral Cancer Detection — NIT Jamshedpur** *(Dec 2025 – Present)*
+- Designing a **DWT-Gabor Fusion Swin Transformer** for early-stage OSCC classification from H&E-stained histopathological images
+- Novel **4th-channel input strategy**: fusing multi-level Haar DWT + Gabor filter energy maps → stain-invariant frequency-domain features (cell boundaries, nuclear texture, tissue architecture)
+- Replacing standard ViT patch merging with **DWT-based patch merging** — preserves edge and texture information critical for fine morphological distinction
+- Benchmarking on NDB-UFES dataset (237 images, 3 classes) · correcting data leakage in prior work · 5-fold stratified image-level CV
 
-**🧬 DCFNet: Dual-Encoder 3D Liver Segmentation** *(Master's Thesis)*
-- Cross-Attention Fusion Module (CAFM) with bidirectional attention + 3D Coordinate Attention
-- PyTorch + MONAI · boundary-aware loss · deep supervision · single NVIDIA T4 GPU
-- Evaluated on **318 3D MRI volumes** (CirrMRI600+) against 4 baselines + 6-variant ablation study
+**🧬 DCFNet: 3D Liver Segmentation — Master's Thesis**
+- **Dual-encoder architecture** with Cross-Attention Fusion Module (CAFM): bidirectional cross-attention + learned per-voxel spatial gating
+- Extended **Coordinate Attention from 2D → 3D** for volumetric medical image analysis
+- Pipeline: PyTorch + MONAI · boundary-aware loss · deep supervision · mixed-precision · single NVIDIA T4 GPU
+- Evaluated on **318 3D MRI volumes** (CirrMRI600+) · 4 baselines · 6-variant ablation study · statistical significance testing
+
+---
+
+## 📝 Publication
+
+> **Continuous Fundus Image Quality Assessment for Retinal Screening**  
+> *Under review — Springer Nature*  
+> Inception-V3 backbone · Smooth L1 (Huber) loss · **SRCC = 0.9459 · PLCC = 0.9575** on FIQS dataset  
+> Designed for automated quality control in large-scale diabetic retinopathy & teleophthalmology screening
 
 ---
 
@@ -49,28 +64,41 @@ Research Intern  →  IIITDM Kurnool   (Human Activity Recognition · BiLSTM-Tra
 
 `Deep Learning` &nbsp; `Medical Image Analysis` &nbsp; `3D Volumetric Segmentation` &nbsp; `Computational Pathology`  
 `Oral Cancer Detection` &nbsp; `Vision Transformers` &nbsp; `Retinal Image Quality Assessment`  
-`EEG / BCI Systems` &nbsp; `Wavelet-Based Feature Extraction` &nbsp; `Healthcare AI`
+`EEG / BCI Systems` &nbsp; `Wavelet-Based Feature Extraction` &nbsp; `Healthcare AI` &nbsp; `Time-Series Classification`
 
 ---
 
 ## 🛠️ Technical Stack
 
-**ML / DL** &nbsp;→&nbsp; `PyTorch` `TensorFlow` `MONAI` `Keras` `Scikit-learn`  
-**Medical Imaging** &nbsp;→&nbsp; `DICOM` `OpenCV` `OpenSlide` `Stain Normalization` `Patch Extraction`  
-**Signal Processing** &nbsp;→&nbsp; `SciPy` `PyWavelets` `DWT` `Gabor Filters` `Artifact Removal`  
+**ML / DL Frameworks** &nbsp;→&nbsp; `PyTorch` `TensorFlow` `MONAI` `Keras` `Scikit-learn`  
+**Medical Imaging** &nbsp;→&nbsp; `DICOM` `OpenCV` `OpenSlide` `Stain Normalization` `Patch Extraction` `Image Segmentation`  
+**Signal Processing** &nbsp;→&nbsp; `SciPy` `PyWavelets` `DWT` `Gabor Filters` `Band-pass Filtering` `Artifact Removal`  
 **Languages** &nbsp;→&nbsp; `Python` `C/C++` `Java`  
-**Tools** &nbsp;→&nbsp; `Docker` `FastAPI` `PostgreSQL` `Git` `LaTeX` `Jupyter`
+**Tools** &nbsp;→&nbsp; `Git` `Docker` `FastAPI` `PostgreSQL` `LaTeX` `Jupyter` `VS Code`
 
 ---
 
 ## 📌 Featured Projects
 
-| | Project | Highlights |
+| Project | What I built | Key metric |
 |---|---|---|
-| 🧬 | [**DCFNet** – 3D Liver Segmentation](https://github.com/parasharcuraj/histo) | Dual-encoder · Cross-attention · 92.22% Dice |
-| 🤖 | [**AI-Interview-Assistant**](https://github.com/parasharcuraj/AI-Interview-Assistant) | LLM-powered recruitment · scoring dashboard |
-| 🔑 | [**kpa-api**](https://github.com/parasharcuraj/kpa-api) | FastAPI · JWT auth · PostgreSQL |
-| 🚂 | [**RailSathiBE-Docker**](https://github.com/parasharcuraj/RailSathiBE-Docker) | Dockerized · Redis · Railway complaint system |
+| [🧬 **DCFNet** – 3D Liver Segmentation](https://github.com/parasharcuraj/histo) | Dual-encoder CNN · Cross-attention fusion · 3D MRI | 92.22% Dice |
+| [🤖 **AI-Interview-Assistant**](https://github.com/parasharcuraj/AI-Interview-Assistant) | LLM-powered technical recruiter · scoring dashboard | End-to-end AI pipeline |
+| [🚂 **RailSathiBE-Docker**](https://github.com/parasharcuraj/RailSathiBE-Docker) | Dockerized complaint system · Redis · JWT | Production-grade backend |
+| [🔑 **kpa-api**](https://github.com/parasharcuraj/kpa-api) | FastAPI · JWT auth · PostgreSQL REST API | Secure, scalable |
 
+---
 
-*💬 I'm always happy to discuss research, collaborations, or PhD opportunities — feel free to reach out!*
+## 📊 GitHub Activity
+
+![Himanshu's GitHub stats](https://github-readme-stats.vercel.app/api?username=parasharcuraj&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+&nbsp;
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=parasharcuraj&layout=compact&theme=tokyonight&hide_border=true)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=parasharcuraj&theme=tokyonight&hide_border=true)
+
+---
+
+💬 *I'm actively looking for PhD opportunities and research collaborations in AI-driven healthcare and computational pathology. Let's connect.*
+
+[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/himanshu-parashar-a7217222a)
