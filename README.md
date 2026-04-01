@@ -84,7 +84,7 @@ Integrated M.Sc. Computer Science · Central University of Rajasthan, Ajmer, Ind
 
 **[→ llm-cs-eval-tasks](https://github.com/parasharcuraj/llm-cs-eval-tasks)** — 15 real systems engineering tasks that expose LLM reasoning failures
 
-I design and evaluate complex CS debugging tasks as part of active work with [Snorkel AI / Terminal-Bench](https://snorkel.ai). These tasks cover:
+I design and evaluate complex CS debugging tasks as part of active LLM benchmarking work. These tasks cover:
 
 - Protocol bugs requiring RFC-level spec knowledge (DNSSEC, HTTP/2, UART)
 - Systems debugging with no documentation — format must be reverse-engineered from binaries (WAL, eBPF, custom ISA)
