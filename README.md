@@ -72,13 +72,5 @@ Research Intern  →  IIITDM Kurnool   (Human Activity Recognition · BiLSTM-Tra
 | 🔑 | [**kpa-api**](https://github.com/parasharcuraj/kpa-api) | FastAPI · JWT auth · PostgreSQL |
 | 🚂 | [**RailSathiBE-Docker**](https://github.com/parasharcuraj/RailSathiBE-Docker) | Dockerized · Redis · Railway complaint system |
 
----
-
-## 📄 Publication
-
-> 📝 **Continuous Fundus Image Quality Assessment using Deep Learning** — *under review at Springer Nature*  
-> Inception-V3 · Huber Loss · SRCC 0.9459 · PLCC 0.9575 on FIQS dataset
-
----
 
 *💬 I'm always happy to discuss research, collaborations, or PhD opportunities — feel free to reach out!*
